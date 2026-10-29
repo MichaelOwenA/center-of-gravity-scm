@@ -22,17 +22,21 @@ Where:
 
 ![Center of Gravity Map Preview](center_of_gravity_map.png)
 
+### Visual Legend
+- **Blue Circles**: Demand hubs (Java cities) with radius dynamically scaled based on `Demand_Ton`.
+- **Red Star**: Mathematically calculated optimal facility location (Center of Gravity).
+
 ## Dataset & Demand Hubs
 
-| City | Region | Latitude | Longitude |
-| :--- | :--- | :--- | :--- |
-| Jakarta | Special Capital Region | -6.2088 | 106.8456 |
-| Bandung | West Java | -6.9175 | 107.6191 |
-| Semarang | Central Java | -6.9666 | 110.4197 |
-| Surabaya | East Java | -7.2575 | 112.7521 |
-| Yogyakarta | Special Region of Yogyakarta | -7.7956 | 110.3695 |
-| Malang | East Java | -7.9666 | 112.6326 |
-| Serang | Banten | -6.1154 | 106.1503 |
+| City | Region | Latitude | Longitude | Demand (Ton) |
+| :--- | :--- | :--- | :--- | :--- |
+| Jakarta | Special Capital Region | -6.2088 | 106.8456 | 2346 |
+| Bandung | West Java | -6.9175 | 107.6191 | 4969 |
+| Semarang | Central Java | -6.9666 | 110.4197 | 2478 |
+| Surabaya | East Java | -7.2575 | 112.7521 | 3446 |
+| Yogyakarta | Special Region of Yogyakarta | -7.7956 | 110.3695 | 3798 |
+| Malang | East Java | -7.9666 | 112.6326 | 10848 |
+| Serang | Banten | -6.1154 | 106.1503 | 2653 |
 
 ## Tech Stack
 
